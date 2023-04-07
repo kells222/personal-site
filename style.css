@@ -1,1 +1,30 @@
+body {
+    background-color: rgb(114, 78, 114);
+    color: aliceblue;
+}
+header{
+    border: 6px solid rgb(215, 90, 215);
+    text-align: center;
+    color: rgb(126, 18, 74);
+    background-color: aliceblue;
+}
+img {
+    border-radius: 10%;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 5px;
+   
+}
+.top {
+    display: flex;
+   justify-content: center;
+   color: antiquewhite;
+   border: 7px solid rgb(126, 18, 74)
 
+}
+.box {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    
+}
