@@ -11,7 +11,7 @@ header{
 img {
     border-radius: 10%;
     max-width: 400px;
-    max-height: 400px;
+    max-height: 450px;
     padding: 5px;
    
 }
@@ -26,5 +26,5 @@ img {
     display: flex;
     justify-content: center;
     font-size: small;
-    
+    /* testing branch */
 }
