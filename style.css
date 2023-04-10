@@ -27,5 +27,13 @@ img {
     display: flex;
     justify-content: center;
     font-size: small;
+    flex-wrap: nonwrap;
+    flex-direction: row;
+    
    
+}
+.box1 {
+    display: flex;
+    flex-flow: column-reverse;
+
 }
