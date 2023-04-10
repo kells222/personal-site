@@ -1,0 +1,1 @@
+my personal website project, making three separate pages and using a navagation bar to navagate to each page separately
