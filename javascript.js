@@ -1,6 +1,7 @@
 function display(hellowrld) {
-    return '${hellowrld}'
+    return 'Hello World!'
 }
-console.log("Hello World!")
+
+console.log(display("Hello World!"))
 
 
