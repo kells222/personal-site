@@ -38,3 +38,15 @@ img {
     flex-flow: column-reverse;
 
 }
+
+
+
+.submitBtn {
+    font-weight: 500;
+    color: rgb(0, 18, 18);
+    background: #f39dc0;
+    border-color: #6e0a32;
+
+}
+    
+   
