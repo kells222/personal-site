@@ -13,7 +13,7 @@ img {
     max-width: 400px;
     max-height: 400px;
     padding: 5px;
-   
+    z-index: 2;
 }
 
 .top {
@@ -28,15 +28,16 @@ img {
     display: flex;
     justify-content: center;
     font-size: small;
-    flex-wrap: nonwrap;
+    flex-wrap: nowrap;
     flex-direction: row;
-    
+    color: #ffdcea;
    
 }
 .box1 {
     display: flex;
-    flex-flow: column-reverse;
-
+    flex-flow: column;
+    flex-wrap: wrap;
+    color: rgb(144, 216, 216);
 }
 
 .submitBtn {
@@ -51,6 +52,11 @@ img {
     display: flex;
     flex-direction: column;
     align-self: center;
+    background-color: rgb(215, 151, 161);
+    color: rgba(129, 52, 201, 0.79);
+    border: 3px solid rgb(120, 54, 120);
+
+
 }
    
 label {
