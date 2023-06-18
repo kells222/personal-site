@@ -38,3 +38,28 @@ img {
     flex-flow: column-reverse;
 
 }
+
+.submitBtn {
+    font-weight: 500;
+    color: rgb(0, 18, 18);
+    background: #f39dc0;
+    border-color: #6e0a32;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+   
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+}
