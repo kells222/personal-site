@@ -6,10 +6,11 @@
 
 
 const form = document.querySelector("#form")
-const submitButton = document.querySelector("#submit")
+const submitButton = document.getElementsByClassName("submitBtn")
 const scriptURL = 'https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec'
 
-form.addEventListener('submit', e => {
+
+form.addEventListener('onclick', e => {
   submitButton.disabled = true
   e.preventDefault()
   let requestBody = new FormData(form)
@@ -24,5 +25,11 @@ form.addEventListener('submit', e => {
 
     })
 })
+
+
+
+
+
+
 
 
